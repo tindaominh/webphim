@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::prefix('/trang-chu')->group(function() {
-    Route::get('','TrangChuController@index')->name('trangchu');
+    Route::get('','HomeController@index')->name('home');
 });

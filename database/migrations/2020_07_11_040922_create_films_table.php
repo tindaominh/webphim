@@ -17,12 +17,12 @@ class CreateFilmsTable extends Migration
             $table->increments('id');
             $table->string('ten_phim');
             $table->string('dao_dien');
-            $table->json('dien_vien');
+            $table->string('dien_vien');
             $table->string('the_loai');
             $table->string('quoc_gia');
             $table->string('thoi_luong');
             $table->date('name_phat_hanh');
-            $table->json('nguoi_san_xuat');
+            $table->string('nguoi_san_xuat');
             $table->string('hang_phim');
             $table->string('status');
             $table->text('gioi_thieu_phim');
